@@ -1,5 +1,5 @@
 # github.io
-Still testing...
-Some translation scripts and programs.
+Translation scripts and programs.
+Still in testing phase...
 <br>
 https://github.com/letconex/ScriptsForTranslation
