@@ -1,5 +1,5 @@
 # github.io
-<p><a href="https://letconex.github.io/letconex/" rel="nofollow">https://letconex.github.io/letconex/</a>
+<p><a href="https://letconex.github.io/letconex/">https://letconex.github.io/letconex/</a>
 <br>
 Translation scripts and programs.
 Still in testing phase...
