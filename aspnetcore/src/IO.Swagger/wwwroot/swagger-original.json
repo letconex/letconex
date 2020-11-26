@@ -1,0 +1,56 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "ENDERO IATE Dictionary",
+    "description" : "Access EN-DE-RO IATE Dictionaries",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://traduceri.eu.pythonanywhere.com"
+  } ],
+  "paths" : {
+    "/search/term={searchterm}" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "parameters" : [ {
+          "name" : "searchterm",
+          "in" : "path",
+          "description" : "Search term",
+          "required" : true,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "string"
+          },
+          "examples" : {
+            "zero" : {
+              "summary" : "A sample search term",
+              "value" : "Katze"
+            }
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "text/html; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string",
+                  "x-content-type" : "text/html; charset=utf-8"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://traduceri.eu.pythonanywhere.com"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://traduceri.eu.pythonanywhere.com"
+      } ]
+    }
+  },
+  "components" : { }
+}
