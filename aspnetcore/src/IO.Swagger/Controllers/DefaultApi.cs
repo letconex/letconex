@@ -32,13 +32,14 @@ namespace IO.Swagger.Controllers
         /// </summary>
         /// <remarks>Auto generated using Swagger Inspector</remarks>
         /// <param name="searchterm">Search term</param>
+        /// <param name="slang">Source language</param>
         /// <response code="200">Auto generated using Swagger Inspector</response>
         [HttpGet]
-        [Route("/search/term={searchterm}")]
+        [Route("/search/slang={slang}&term={searchterm}")]
         [ValidateModelState]
-        [SwaggerOperation("SearchTermsearchtermGet")]
+        [SwaggerOperation("SearchSlangslangtermsearchtermGet")]
         [SwaggerResponse(statusCode: 200, type: typeof(string), description: "Auto generated using Swagger Inspector")]
-        public virtual IActionResult SearchTermsearchtermGet([FromRoute][Required]string searchterm)
+        public virtual IActionResult SearchSlangslangtermsearchtermGet([FromRoute][Required]string searchterm, [FromRoute][Required]string slang)
         { 
             //TODO: Uncomment the next line to return response 200 or use other options such as return this.NotFound(), return this.BadRequest(..), ...
             // return StatusCode(200, default(string));

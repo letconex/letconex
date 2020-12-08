@@ -9,7 +9,7 @@
     "url" : "http://traduceri.eu.pythonanywhere.com"
   } ],
   "paths" : {
-    "/search/term={searchterm}" : {
+    "/search/slang={slang}&term={searchterm}" : {
       "get" : {
         "description" : "Auto generated using Swagger Inspector",
         "parameters" : [ {
@@ -26,6 +26,22 @@
             "zero" : {
               "summary" : "A sample search term",
               "value" : "Katze"
+            }
+          }
+        }, {
+          "name" : "slang",
+          "in" : "path",
+          "description" : "Source language",
+          "required" : true,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "string"
+          },
+          "examples" : {
+            "zero" : {
+              "summary" : "A sample search term",
+              "value" : "DE"
             }
           }
         } ],
